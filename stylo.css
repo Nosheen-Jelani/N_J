@@ -1,0 +1,145 @@
+body{
+    margin: 0%;
+    background-color: burlywood
+    
+}
+.navebar{
+    /* border: 2px solid black; */
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+
+}
+.logo, .nave_links, .btn{
+
+height: 70px;
+display: inline-block;
+
+}
+.nave_links{
+    width: 40%;
+    vertical-align: top;
+}
+li{
+    display: inline-block;
+
+    margin-right: 40px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color:gold;
+}
+li a{
+
+font-size: 20px;
+
+}
+    
+.logo{
+width: 30%;
+
+}
+.logo img{
+    height: 85px;
+    margin-left: 90px;
+    margin-right: 0%;
+    width: 150px;
+}
+.btn{
+    width: 25%;
+    text-align: center;
+    vertical-align: top;
+  }
+.btn a{
+margin-top: 20px;
+display: inline-block;
+/* background-color:rgb(120, 105, 255); */
+padding: 4px 20px;
+font-size: 20px;
+border-radius: 15px;
+}  
+
+.productimage{
+
+margin-top: 0px;
+background-image: url(./pro.jpg);
+height: 700px;
+background-size: cover;
+
+}
+  
+.productheading{
+font-size: 50px;
+color: rgb(0, 247, 255);
+background-image: linear-gradient(rgba(0, 0, 0, 240),transparent);
+height: 100%;
+/* position: relative; */
+width: 100%;
+z-index: 0;
+}
+
+h3{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}
+
+.boxes{
+    /* border: 1px solid gray; */
+    position: relative;
+    height:20px;
+    margin: auto;
+    z-index: -1;
+    text-align: center;
+}
+
+.box1{
+
+border: 2px solid rgb(201, 179, 179);
+height: 250px;
+width: 300px;
+background-color: rgb(201, 179, 179);
+}
+.box2{
+    border: 2px solid rgb(126, 93, 93);
+height: 250px;
+width: 300px;
+background-color: rgb(126, 93, 93);
+
+}
+.box3{
+    border: 2px solid rgb(201, 179, 179);
+height: 250px;
+width: 300px;
+vertical-align: top;
+background-color: rgb(201, 179, 179);
+}
+.box1, .box2, .box3{
+
+display: inline-block;
+    
+}
+.box ul li{
+    display: block;
+    
+
+}
+
+h1{
+    text-align: center;
+}
+.maincontent{
+    margin-top: 350px;
+border: 1px solid gray;
+background-color:blueviolet;
+margin-bottom: 200px;
+display: flex;
+justify-content: space-around;
+
+}
+
+
